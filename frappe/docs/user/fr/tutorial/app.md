@@ -4,10 +4,10 @@ Dans Frappe, une application est juste une application Python standard. Vous pou
 la même facon que vous structurez une application Python standard. Pour le déploiement, Frappe utilise Setuptools donc 
 vous pouvez facilement déployer votre application sur n'importe quelle machine.
 
-Frappe fournit une interface WSGI et pendant vos développements vous pouvez utiliser le serveur Werkzeug embarqué. Pour le
+Frappe fournit une interface WSGI et pendant vos développements vous pouvez utiliser le serveur embarqué Werkzeug. Pour le
 déploiemenent en production, nous recommandons d'utiliser nginx et gunicorn.
 
-Frappe, c'est aussune une architecture multi-tenant ce qui signifie que vous pouvez lancer plusieurs sites sur une meme
+Frappe, c'est aussi une architecture multi-tenant ce qui signifie que vous pouvez lancer plusieurs sites sur une même
 configuration, chaque site utilisant ses propres applications et utilisateurs. La base de données de chaque site est indépendante.
 
 {suite}
